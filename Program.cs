@@ -67,6 +67,11 @@ namespace WebApiSampleCreator
                     Process.Start("cmd.exe", $"/C cd \"{projectPath}\" && dotnet add package {pkg}").WaitForExit();
                 }
 
+                // Run EF Core migration commands to create the database and tables
+                Console.WriteLine("\nRunning Entity Framework Core migrations...");
+                Process.Start("cmd.exe", $"/C cd \"{projectPath}\" && dotnet ef migrations add InitialCreate").WaitForExit();
+                Process.Start("cmd.exe", $"/C cd \"{projectPath}\" && dotnet ef database update").WaitForExit();
+
                 Console.WriteLine("\nProject created!! You can find the folder on your desktop.\n");
                 Console.Write("Open the project folder now? (Y/N): ");
                 var key = Console.ReadKey(true);

@@ -197,3 +197,4 @@ C:\Users\user\Desktop\WebApiSampleCreator\WebApiSample\obj\Release\net9.0\win-x6
 C:\Users\user\Desktop\WebApiSampleCreator\WebApiSample\obj\Release\net9.0\win-x64\WebApiSample.pdb
 C:\Users\user\Desktop\WebApiSampleCreator\WebApiSample\obj\Release\net9.0\win-x64\WebApiSample.genruntimeconfig.cache
 C:\Users\user\Desktop\WebApiSampleCreator\WebApiSample\obj\Release\net9.0\win-x64\ref\WebApiSample.dll
+C:\Users\user\Desktop\WebApiSampleCreator\WebApiSample\obj\Release\net9.0\win-x64\WebApiSample.sourcelink.json
