@@ -11,7 +11,7 @@ Ideal for beginners or professionals who want a clean, ready-to-use API base wit
 📁 Creates a full Web API project on your Desktop  
 📂 Automatically adds folders: Controllers, Models, Data  
 📦 Installs essential NuGet packages (EF Core, SQLite, Swagger)  
-🔧 Adds test GET/POST endpoints  
+🔧 Adds test GET/POST/PUT/DELETE endpoints  
 📄 Enables Swagger UI  
 💻 Asks to open project in VS Code
 
