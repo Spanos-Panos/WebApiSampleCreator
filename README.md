@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 🚀 WebApiSampleCreator
 
 A C# console application that scaffolds a fully functional ASP.NET Core Web API project with just one prompt.  
@@ -84,3 +85,7 @@ Download compiled .exe (coming soon)
 🤝 Contribute  
 Feel free to fork, use, and improve the project.  
 Suggestions? Open an issue or pull request!
+=======
+# WebApiSampleCreator
+A C# console application that scaffolds a fully functional ASP.NET Core Web API project with just one prompt. Ideal for beginners or professionals who want a clean, ready-to-use API base with SQLite and Swagger support.
+>>>>>>> d0332fc15373e0388afda9a2be788fdb8e5703c3
