@@ -85,6 +85,24 @@ Download compiled .exe (coming soon)
 🤝 Contribute  
 Feel free to fork, use, and improve the project.  
 Suggestions? Open an issue or pull request!
+
+---
+
+## ⚠️ Windows SmartScreen Warning
+
+When running the `.exe` for the first time, Windows may show a security warning like:
+
+> “Windows protected your PC. Microsoft Defender SmartScreen prevented an unrecognized app from starting.”
+
+This happens because the app is not yet signed with a digital certificate.
+
+To proceed safely:
+
+1. Click **“More info”**
+2. Click **“Run anyway”**
+
+This is a common behavior for new tools and developer utilities that are not yet signed.
+
 =======
 # WebApiSampleCreator
 A C# console application that scaffolds a fully functional ASP.NET Core Web API project with just one prompt. Ideal for beginners or professionals who want a clean, ready-to-use API base with SQLite and Swagger support.
